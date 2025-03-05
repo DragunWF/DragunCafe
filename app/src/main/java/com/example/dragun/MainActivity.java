@@ -26,7 +26,6 @@ import com.example.dragun.helpers.DatabaseHelper;
 import com.example.dragun.helpers.Utils;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
 
     private Spinner categorySpinner;
-    private ArrayAdapter<CharSequence> adapter;
+    private ArrayAdapter<CharSequence> spinnerAdapter;
     private String productType;
 
     @Override
@@ -108,12 +107,12 @@ public class MainActivity extends AppCompatActivity {
         });
         sellableBtn.setOnClickListener(v -> {
             productType = "Sellable";
-            setAdapter("Sellable");
+            setSpinnerAdapter("Sellable");
             // Utils.longToast("Switched to Sellable!", MainActivity.this);
         });
         nonSellableBtn.setOnClickListener(v -> {
             productType = "NonSellable";
-            setAdapter("NonSellable");
+            setSpinnerAdapter("NonSellable");
             // Utils.longToast("Switched to Non-Sellable!", MainActivity.this);
         });
         logBtn.setOnClickListener(v -> {
@@ -121,53 +120,53 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void setAdapter(String productType) {
+    private void setSpinnerAdapter(String productType) {
         if (productType.equals("Sellable")) {
             productAdapter = new SellableProductAdapter(DatabaseHelper.getSellableProductBank().getAll(), this);
             productRecycler.setAdapter(productAdapter);
 
-            adapter = ArrayAdapter.createFromResource(
+            spinnerAdapter = ArrayAdapter.createFromResource(
                     this,
                     R.array.coffee_categories,
                     android.R.layout.simple_spinner_item
             );
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
             sellableBtn.setBackgroundColor(getResources().getColor(R.color.primary));
             nonSellableBtn.setBackgroundColor(getResources().getColor(R.color.black));
-            categorySpinner.setAdapter(adapter);
+            categorySpinner.setAdapter(spinnerAdapter);
         } else {
             nonSellableProductAdapter = new NonSellableProductAdapter(DatabaseHelper.getNonSellableProductBank().getAll(), this);
             productRecycler.setAdapter(nonSellableProductAdapter);
 
-            adapter = ArrayAdapter.createFromResource(
+            spinnerAdapter = ArrayAdapter.createFromResource(
                     this,
                     R.array.unit_measurement,
                     android.R.layout.simple_spinner_item
             );
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             sellableBtn.setBackgroundColor(getResources().getColor(R.color.black));
             nonSellableBtn.setBackgroundColor(getResources().getColor(R.color.primary));
-            categorySpinner.setAdapter(adapter);
+            categorySpinner.setAdapter(spinnerAdapter);
         }
     }
 
     private void setSpinner() {
         // Create an ArrayAdapter using the string array and a default spinner layout.
-        adapter = ArrayAdapter.createFromResource(
+        spinnerAdapter = ArrayAdapter.createFromResource(
                 this,
                 R.array.coffee_categories,
                 android.R.layout.simple_spinner_item
         );
         // Specify the layout to use when the list of choices appears.
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner.
-        categorySpinner.setAdapter(adapter);
+        categorySpinner.setAdapter(spinnerAdapter);
 
         categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String selectedItem = adapter.getItem(position).toString();
+                String selectedItem = spinnerAdapter.getItem(position).toString();
 
                 if (selectedItem.equals("Any")) {
                     productAdapter.updateDataSet(DatabaseHelper.getSellableProductBank().getAll());
