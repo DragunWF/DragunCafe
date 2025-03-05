@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dragun Cafe</string>
+    <string-array name="coffee_categories_add_form">
+        <item>Cold Brew</item>
+        <item>Hot Brew</item>
+    </string-array>
+    <string-array name="coffee_categories">
+        <item>Any</item>
+        <item>Cold Brew</item>
+        <item>Hot Brew</item>
+    </string-array>
+    <string-array name="unit_measurement">
+        <item>Any</item>
+        <item>ml</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="unit_measurement_add_form">
+        <item>ml</item>
+        <item>g</item>
+    </string-array>
+</resources>
