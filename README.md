@@ -13,7 +13,7 @@ You are an aspiring coffee shop owner, however you have difficulties on checking
 #### 2 Categories for filter
 
 - [x] Sellable Inventory
-  - Itf consists of products that can be purchased.
+  - It consists of products that can be purchased.
 - [x] Non-Sellable Inventory
   - It consists of products that are used to create products.
 
