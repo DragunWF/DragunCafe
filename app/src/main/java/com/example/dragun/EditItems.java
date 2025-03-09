@@ -181,20 +181,11 @@ public class EditItems extends AppCompatActivity {
     }
 
     private void setSpinner() {
-        ArrayAdapter<CharSequence> adapter;
-        if (isSellableForm) {
-            adapter = ArrayAdapter.createFromResource(
-                    this,
-                    R.array.coffee_categories_add_form,
-                    android.R.layout.simple_spinner_item
-            );
-        } else {
-            adapter = ArrayAdapter.createFromResource(
-                    this,
-                    R.array.unit_measurement_add_form,
-                    android.R.layout.simple_spinner_item
-            );
-        }
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+                this,
+                isSellableForm ? R.array.coffee_categories_add_form : R.array.unit_measurement_add_form,
+                android.R.layout.simple_spinner_item
+        );;
 
         // Specify the layout to use when the list of choices appears.
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
