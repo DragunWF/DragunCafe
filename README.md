@@ -13,6 +13,7 @@
   - [Add Product](#add-product)
   - [Edit Product](#edit-product)
   - [Sellable Product Logs](#sellable-product-logs)
+  - [Dialogs](#dialogs)
 
 ## Description
 
