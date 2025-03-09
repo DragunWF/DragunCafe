@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Description](#description)
-  - [Team Members](#team-members)  
+  - [Team Members](#team-members)
 - [Problem Statement](#problem-statement)
   - [System Requirements](#your-system-should-have-the-following-features)
 - [Preview of the App](#preview-of-the-app)
@@ -12,7 +12,7 @@
   - [View Product](#view-product)
   - [Add Product](#add-product)
   - [Edit Product](#edit-product)
-  - [Sellable Product Logs](#sellable-product-logs)     
+  - [Sellable Product Logs](#sellable-product-logs)
 
 ## Description
 
@@ -50,12 +50,50 @@ You are an aspiring coffee shop owner, however you have difficulties on checking
 
 ### Splash Screen
 
+<div class="image-container">
+    <img src="img/SplashScreen.png" alt="SplashScreen.png" width="300"/>
+</div>
+
 ### Main Activity
+
+<div class="image-container">
+    <img src="img/MainActivity.png" alt="MainActivity.png" width="300"/>
+    <img src="img/MainActivity2.png" alt="MainActivity2.png" width="300"/>
+</div>
 
 ### View Product
 
+<div class="image-container">
+    <img src="img/ViewItem.png" alt="ViewItem.png" width="300"/>
+    <img src="img/ViewItem2.png" alt="ViewItem2.png" width="300"/>
+</div>
+
 ### Add Product
+
+<div class="image-container">
+    <img src="img/AddForm.png" alt="AddForm.png" width="300"/>
+    <img src="img/AddForm2.png" alt="AddForm2.png" width="300"/>
+</div>
 
 ### Edit Product
 
+<div class="image-container">
+    <img src="img/EditForm.png" alt="EditForm.png" width="300"/>
+    <img src="img/EditForm2.png" alt="EditForm2.png" width="300"/>
+</div>
+
 ### Sellable Product Logs
+
+<div class="image-container">
+    <img src="img/SellableProductLogs.png" alt="SellableProductLogs.png" width="300"/>
+    <img src="img/SellableProductLogs2.png" alt="SellableProductLogs2.png" width="300"/>
+</div>
+
+### Dialogs
+
+<div class="image-container">
+    <img src="img/Dialog.png" alt="Dialog.png" width="300"/>
+    <img src="img/Dialog2.png" alt="Dialog2.png" width="300"/>
+    <img src="img/Dialog3.png" alt="Dialog3.png" width="300"/>
+    <img src="img/Dialog4.png" alt="Dialog4.png" width="300"/>
+</div>
