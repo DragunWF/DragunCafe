@@ -17,7 +17,7 @@
 
 ## Description
 
-This is the winning submission for the Tagisan ng Talino 2025 CodeFest hackathon at the local level on STI College Ortigas-Cainta. The development time given on the Hackathon was **6 hours** inside a computer laboratory at the academic building. The awarding ceremony and development took place on the same day at March 5, 2025.
+This is the winning submission for the Tagisan ng Talino 2025 CodeFest hackathon at the local level on STI College Ortigas-Cainta. The development time given on the Hackathon was **6 hours** inside a computer laboratory at the academic building. The awarding ceremony and development took place on the same day at **March 5, 2025**.
 
 ### Team Members
 
