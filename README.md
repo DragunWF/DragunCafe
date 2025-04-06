@@ -3,17 +3,8 @@
 ## Table of Contents
 
 - [Description](#description)
-  - [Team Members](#team-members)
 - [Problem Statement](#problem-statement)
-  - [System Requirements](#your-system-should-have-the-following-features)
-- [Preview of the App](#preview-of-the-app)
-  - [Splash Screen](#splash-screen)
-  - [Main Activity](#main-activity)
-  - [View Product](#view-product)
-  - [Add Product](#add-product)
-  - [Edit Product](#edit-product)
-  - [Sellable Product Logs](#sellable-product-logs)
-  - [Dialogs](#dialogs)
+- [App Screenshots](#app-screenshots)
 
 ## Description
 
@@ -47,7 +38,7 @@ You are an aspiring coffee shop owner, however you have difficulties on checking
 - [x] Product details sellable and non-sellable
 - [x] Product logs of sellable items
 
-## Preview of the App
+## App Screenshots
 
 ### Splash Screen
 
