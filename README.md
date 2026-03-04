@@ -21,6 +21,12 @@ This is the winning submission for the Tagisan ng Talino 2025 CodeFest hackathon
 - Android API Level 24 (Nougat)
 - 1080x2400 6.4 inches screen size
 
+## 🏆 Codefest Journey
+
+- 🥇 [**Tagisan ng Talino Codefest 2025: Local Level** — _DragunCafe_](https://github.com/DragunWF/DragunCafe) — _Champion_
+- 🥇 [**Tagisan ng Talino Codefest 2025: Cluster Level** — _SkillSwap_](https://github.com/DragunWF/SkillSwap) — _Champion_
+- 🎖️ [**Tagisan ng Talino Codefest 2025: National Level** — _Transpend_](https://github.com/DragunWF/Transpend) — _Finalist_
+
 ## Problem Statement
 
 You are an aspiring coffee shop owner, however you have difficulties on checking the stocks of your ingredients. You also often find it hard to manage restocking your ingredients due to your manual usage of pen and paper. Additionally you also have a hard time on managing the salable and unsalable products. In order to solve your dilemma, you need to create a sales and inventory system that enables you to manage the data.
@@ -94,3 +100,4 @@ You are an aspiring coffee shop owner, however you have difficulties on checking
     <img src="img/Dialog3.png" alt="Dialog3.png" width="300"/>
     <img src="img/Dialog4.png" alt="Dialog4.png" width="300"/>
 </div>
+
